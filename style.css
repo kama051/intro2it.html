@@ -1,0 +1,78 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #114d4e;
+    color: #ff6f00;
+    margin: 20px;
+}
+
+
+header {
+    text-align: center;
+    background-color: #ff2323;
+    color: rgb(236, 210, 14);
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.description {
+    font-style: italic;
+}
+
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(214, 18, 18, 0.1);
+}
+
+h2 {
+    color: #fffcf1;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+
+.movies img {
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+.moods img {
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+
